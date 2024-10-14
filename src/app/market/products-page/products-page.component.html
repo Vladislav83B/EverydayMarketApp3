@@ -1,0 +1,8 @@
+<app-category-menu
+  [categories]="categories"
+  (categorySelected)="onCategorySelected($event)"
+></app-category-menu>
+
+<div *ngIf="selectedCategory">
+  <h2>Selected Category: {{ selectedCategory.name }}</h2>
+</div>

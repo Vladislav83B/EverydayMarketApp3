@@ -1,0 +1,13 @@
+.category-list {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.category-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black; 
+  cursor: pointer; 
+}
+  
+ 

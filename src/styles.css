@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+}
+
+app-root {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;  
+  flex-direction: column;  
+  min-height: 10vh;        
+  padding: 20px;
+}

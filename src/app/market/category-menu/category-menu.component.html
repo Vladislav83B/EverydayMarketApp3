@@ -1,0 +1,6 @@
+<div *ngFor="let category of categories">
+  <app-category-menu-item
+    [category]="category"
+    (categoryClick)="onCategoryClicked(category)"
+  ></app-category-menu-item>
+</div>
